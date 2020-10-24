@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-
-
-<script src="myscripts.js"></script>
-<link rel="stylesheet" href="mystyle.css">
-
 <html>
 <head>
 <title>Technica2020</title>
+<link rel="stylesheet" href="mystyle.css">
+<link rel="stylesheet" href="chosen.min.css">
+<script type="text/javascript" src="jquery-3.5.1.min.js"></Script>
+<script type="text/javascript" src="chosen.jquery.min.js"></script>
+<script src="myscripts.js"></script>
 </head>
 <body>
 <div class="topnav">
@@ -96,11 +96,8 @@
   </div>
 
 <h4>Country Made</h4>
-<link rel="stylesheet" href="chosen.min.css">
-<script type="text/javascript" src="jquery-3.5.1.min.js"></Script>
-<script type="text/javascript" src="chosen.jquery.min.js"></script>
 <form>
-    <select id="mselect" multiple="">
+    <select class="chzn-select" multiple="" name="country" style="width:200px">
     <option value="Afganistan">Afghanistan</option>
     <option value="Albania">Albania</option>
     <option value="Algeria">Algeria</option>
@@ -351,11 +348,11 @@
 </form>
 
 <script type="text/javascript">
-    $(document).ready(function(){
-        $('mselect').chosen();
+    $(function() {
+        $(".chzn-select").chosen();
     });
+    </script>
 
-        </script>
 <h5>Sex</h5>
 <div class="checkbox">
     <label class="container">Female
@@ -369,7 +366,5 @@
       <span class="checkmark"></span>
     </label>
 </div>
-  
-
 </body>
 </html>
