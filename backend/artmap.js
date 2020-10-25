@@ -73,8 +73,15 @@ let artwork_data = {
 "1940": "https://upload.wikimedia.org/wikipedia/commons/a/ac/A_Kentish_Lane%2C_1940_Art.IWMARTLD321.jpg",
 "1931": "https://images.fineartamerica.com/images/artworkimages/mediumlarge/2/pablo-picasso-a-dream-1932-le-reve-artwork-pablo-picasso.jpg",
 "1959": "https://images.masterart.com/WhitfordFineArtMedia/Artworks/William-GEAR-Black%20Vertical,%201959.T636545954349466471.jpg?width=560&height=700&mode=max&scale=both&quality=80",
-"1967": "https://m.media-amazon.com/images/I/51L+-1hA0HL._AC_SS350_.jpg"
-"1990": "https://assets.phillips.com/image/upload/t_Website_LotDetailMainImage/v1553643140/auctions/NY030119/89_001.jpg"
+"1938": "https://www.albrightknox.org/sites/default/files/styles/fixed_height_sm/public/artwork/1966_009_010_o2.jpg?itok=UoPkI2dP",
+"1963": "https://www.theartstory.org/images20/works/lichtenstein_roy_2.jpg?3",
+"1967": "https://m.media-amazon.com/images/I/51L+-1hA0HL._AC_SS350_.jpg",
+"1918": "https://p1.liveauctioneers.com/446/82328/42690528_1_x.jpg?auto=webp&format=pjpg&version=1448123882&width=310",
+"1992":"https://ego-alterego.com/wp-content/uploads/2015/03/Big-Eyes-paintings-by-Margaret-Keane1.jpg",
+"1990": "https://assets.phillips.com/image/upload/t_Website_LotDetailMainImage/v1553643140/auctions/NY030119/89_001.jpg",
+"1943": "https://cdn11.bigcommerce.com/s-s0bffw770m/products/12915/images/14085/2194__27450__06198__30344.1581948200.386.513.jpg?c=2",
+
+
 };
 
 let artdata = new Map(Object.entries(artwork_data));
