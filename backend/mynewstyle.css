@@ -25,4 +25,6 @@ body::after {
     background: url(icons.png) top right;
   }
 
-
+input{
+    border-radius: 30px;
+}
