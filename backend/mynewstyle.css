@@ -2,3 +2,27 @@ html, body {
     background: #222;
     color: white;
   }
+
+  .btn-outline-primary {
+    color: #ecb500;
+    border-color: #ecb500;
+  }
+
+    .btn-outline-primary:hover
+{
+        color: #fff;
+        background-color: #ecb500;
+        border-color: #ecb500;
+}
+    
+body::after {
+    content: "";
+    position: absolute;
+    top: 30px;
+    right: 0;
+    height: 200px;
+    width: 63%;
+    background: url(icons.png) top right;
+  }
+
+
